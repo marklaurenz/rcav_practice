@@ -2,12 +2,22 @@
 
 <p>Our little calculator has an infinite number of resources available for you. The resources all live at URLs according to the following scheme:</p>
 
+<form>
+  <div>
+    <label for="number" >Your Number:</label>
+    <input name="number" type="integer" id="first">
+  </div>
+  <div>
+    <input type="submit" value="Submit">
+  </div>
+</form>
+
 <ul>
-  <li>The square of a particular NUMBER lives at the URL <code>/square/NUMBER</code></li>
-  <li>The square root of a particular NUMBER lives at the URL <code>/square_root/NUMBER</code></li>
+  <li>The square of a particular NUMBER lives at the URL <a href="/square/NUMBER"> /square/NUMBER </a></li>
+  <li>The square root of a particular NUMBER lives at the URL <a href="/square_root/NUMBER"> /square_root/NUMBER </a></li>
   <li>
     The size of a monthly loan payment, given an annual interest rate (as a percentage), a total number of payments, and a principal amount, lives at the URL
-    <pre>/payment/INTEREST_RATE/NUMBER_OF_PAYMENTS/PRINCIPAL_VALUE</pre>
+    <a href="/payment/INTEREST_RATE/NUMBER_OF_PAYMENTS/PRINCIPAL_VALUE"> /payment/INTEREST_RATE/NUMBER_OF_PAYMENTS/PRINCIPAL_VALUE </a>
   </li>
 </ul>
 
