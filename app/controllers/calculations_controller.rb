@@ -4,7 +4,7 @@ class CalculationsController < ApplicationController
 
   def square
     @the_number = params[:number].to_f
-    @answer = (@the_number)**(@the_number)
+    @answer = (@the_number)**2
   end
   def square_root
     @the_number = params[:number].to_f
